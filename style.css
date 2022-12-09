@@ -1,0 +1,39 @@
+html body {
+    width: auto;
+    height: 100%;
+    background-color: antiquewhite;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    /*background: url('../images/header.jpg') bottom no-repeat;
+    background-size: cover;*/
+}
+h1 {
+    color: rgb(191, 10, 227);
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px rgb(191, 10, 227);
+}
+li {
+    margin: 15px;
+    text-align: left;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+li a:hover {
+    color: blueviolet;
+    text-shadow: 5px 5px 5px rgb(191, 10, 227);
+}
+
+footer {
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: none;
+}
+
